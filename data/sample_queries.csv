@@ -1,0 +1,16 @@
+query,category,expected_behavior
+"What is the MSBA tuition fee?",Admissions,Return accurate tuition fee with citation
+"Do you offer scholarships?",Fees,Return scholarship information with citation
+"Do I need GMAT or GRE for admission?",Admissions,Return requirements from brochure
+"When is the application deadline?",Admissions,Return correct deadline or fallback
+"What modules are taught in the programme?",Curriculum,Return module list grounded in brochure
+"How long is the programme?",General,Return programme duration with citation
+"What is the class schedule like?",Curriculum,Return grounded info or fallback
+"How many credits do I need to graduate?",Curriculum,Return grounded credit requirement
+"What is the contact email for the MSBA office?",General,Return official email
+"Where is the NUS campus located?",General,Return grounded location
+"Can international students apply?",Admissions,Return grounded eligibility info
+"Is part-time study available?",Programme Structure,Return grounded info or fallback
+"Is work experience required?",Admissions,Return grounded requirement
+"Do you offer internships?",Programme Information,Return grounded info or fallback
+"How can I apply for the MSBA?",Admissions,Return grounded application steps or cite brochure
